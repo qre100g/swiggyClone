@@ -4,7 +4,6 @@
 var items = document.getElementsByClassName('item');
 console.log(items)
 function fun(e) {
-    console.log('in func')
     document.getElementsByClassName('setBackground')[0].className = 'item'
     e.classList.add('setBackground');
 }

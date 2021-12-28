@@ -12,7 +12,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0px;
-    background-color: white;
+    background-color: rgb(247, 241, 231);
 }
 
 /* Nav Left */
@@ -78,6 +78,8 @@
 /* Side Bar */
 
 .sidebar {
+    position: sticky;
+    top: 90px;
     margin-left: 100px;
     padding-top: 30px;
     height: auto;
@@ -103,8 +105,74 @@
     padding: 20px;
     display: flex;
     align-items: center;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    color: black;
 }
 
 .item h6 {
-    color: grey;
+    color: rgb(175, 175, 175);
+}
+
+/* Main Body */
+
+.mainBody {
+    margin-left: 400px;
+    margin-top: -450px;
+    padding: 10px;
+}
+
+.mainBody h1 {
+    margin-left: 20px;
+}
+
+.cardContainer {
+    margin: 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    margin: 0px 15px 15px 0px;
+    color: rgb(102, 102, 102);
+}
+
+.card:hover {
+    border: 0.5px solid rgb(148, 148, 148);
+    transform: scale(1.1, 1.1);
+    transition-duration: 1s;
+}
+
+.card h4 {
+    color: black;
+}
+
+.desc {
+    font-size: 13px;
+}
+
+.rating {
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ratingbox {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: olivedrab;
+    color: white;
+}
+
+.offersLine {
+    display: block;
+    margin-top: 15px;
+    color: red;
 }
